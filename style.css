@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(chuka.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+img{
+    width: 180px;
+    float: left;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+.menu{
+    width: 500px;
+    float:left;
+    height: 30px;
+}
+
+ul{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #1e90ff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+
+.content span{
+    color: #ff7200;
+    font-size: 60px;
+}
+
+.typewriter{
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    padding-left: 10px;
+    margin-top: 1%;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #fff;
+}
+h3{
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    padding-left: 10px;
+    margin-top: 2%;
+    letter-spacing: 1px;
+    font-weight: bold; 
+    color: #ff4500; 
+}
+.vision{
+    float: right;
+    width: 30%;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    padding-right: 10px;
+    margin-top: 2%;
+    color: #ff4500;
+}
+.vision span{
+    font-size: 18px;
+    color: #fff;
+}
+.vision span1{
+    font-size: 18px;
+    color: #fff;
+}
+.mission{
+    float: right;
+    width: 30%;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    padding-right: 10px;
+    margin-top: 2%;
+    color:#ff4500;
+}
+.mission span{
+    font-size: 18px;
+    color:#fff;
+}
+.mission span1{
+    font-size: 18px;
+    color:#fff;
+}
+.mission span2{
+    font-size: 18px;
+    color:#fff;
+}
+.button{
+    text-align: center;
+    margin-top: 4%;
+}
+
+.button a{
+    font-size: 23px;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 15px 25px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.button a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.social-links a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    border: 0.2rem solid #fff;
+    border-radius: 50%;
+    color: #077b32;
+    margin: 5px 15px;
+    margin-top: 2%;
+    font-size: 1.5rem;
+    transition: 0.2s linear;
+}
+
+.social-links a:hover{
+    scale: 1.3;
+    color: black;
+    background-color: #077b32;
+    filter: drop-shadow(0 0 10px #077b32);
+}
+
+.platforms{
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 4%;
+    color: #fff;
+}
